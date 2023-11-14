@@ -17,9 +17,9 @@ final job1=Job.jobsList();
       child: Scaffold(
       appBar: AppBar(title: const Text("Model Class Test"),centerTitle: true,),
       
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: const Item(),
+      body: const Padding(
+        padding: EdgeInsets.all(8.0),
+        child: Item(),
       ),
       ),
     );
